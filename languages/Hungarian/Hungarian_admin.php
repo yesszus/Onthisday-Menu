@@ -14,14 +14,11 @@ define(OTDLAN_CAP, "Ezen a napon történt...");
 define(OTD_MORE,""); // [több]
 define(OTD_MONTHLIST,"Január,Február,Március,Április,Május,Junius,Julius,Augusztus,Szeptember,Október,November,December");
 
-// This is the string displayed if "showifempty" is set:
 define(OTDLAN_DEFAULT, "Erre a napra nincs megjeleníthető bejegyzés.");
-
-define(OTD_01, "You are not permitted to view this information");
-define(OTD_02, "Every year");
+define(OTD_01, "Önnek nincs engedélyezve az információk megtekintése");
+define(OTD_02, "Minden év");
 define(OTD_03, "");
 define(OTD_04, "Ezen a napon");
-
 
 define(OTD_MONTHS,"Január,Február,Március,Április,Május,Junius,Julius,Augusztus,Szeptember,Október,November,December");
 
@@ -32,30 +29,30 @@ define(OTD_H04,"Azon felhasználók megadása, akik láthatják a bejegyzéseket
 define(OTD_H05,"A menü megjelenítése, ha az adott napra nincs megjeleníthető vonatkozó esemény");
 define(OTD_H06,"A menü megjelenítése akkor is, ha az adott napon nincs esemény.");
 define(OTD_H07,"Karakterek száma a menüben");
-define(OTD_H08,"The maximum number of characters to display in the menu (excess is shown as [more])");
+define(OTD_H08,"A menüben megjelenítendő karakterek maximális száma (a továbbiak [több]-ként jelennek meg).");
 define(OTD_H09,"Dátum Formátum");
 define(OTD_H10,"A menüben megjelenő dátumformátum.");
 
 define(OTD_H11,"Esemény bejegyzések");
-define(OTD_H12,"Calendar Control");
-define(OTD_H13,"Use the calendar to move to the day you wish to edit. Click on Add for a new event. Click the corresponding Edit or Delete icon for that action");
+define(OTD_H12,"Naptár kezelés");
+define(OTD_H13,"A naptár segítségével lépjen a szerkeszteni kívánt napra.<br>Egy új esemény létrehozásához kattintson az <b>Új hozzáadása</b> gombra.<br>A szerkesztéshez vagy törléshez kattintson a megfelelő ikonra.");
 define(OTD_H14,"Cím");
-define(OTD_H15,"A brief description of this event (max 200 chars)");
+define(OTD_H15,"Az esemény rövid ismertetése (max. 200 karakter lehet).");
 define(OTD_H16,"Esemény dátuma");
-define(OTD_H17,"Enter the day and month plus, optionally, the year of the event.");
+define(OTD_H17,"Adja meg az esemény hónapját és napját, és adott esetben az esemény évét (opcionális).");
 define(OTD_H18,"Teljes szöveg");
-define(OTD_H19,"An extended description of the event");
+define(OTD_H19,"Az esemény teljes szövege.");
 
 
 define(OTD_H21,"Események importálása/exportálása");
 define(OTD_H22,"Elérhető fájlok");
-define(OTD_H23,"Válassza ki az importálandó fájlt. CVS must be in the format specified.ICal files must be specified with .ics extention");
-define(OTD_H24,"Export to CVS");
-define(OTD_H25,"Name of the file to export to (include the .cvs in the file name)");
+define(OTD_H23,"Válassza ki az importálandó fájlt.<br>A CVS-nek a megadott formátumban kell lennie.<br>Az ICal fájlokat .ics kiterjesztéssel kell megadni.");
+define(OTD_H24,"Exportálás CSV fájlba");
+define(OTD_H25,"Az exportálni kívánt fájl neve (a fájlnevet is meg kell adni a .cvs fájlhoz).");
 define(OTD_H26,"Esemény dátuma");
-define(OTD_H27,"Enter the day and month plus, optionally, the year of the event.");
+define(OTD_H27,"Adja meg az esemény hónapját és napját, és adott esetben az esemény évét (opcionális).");
 define(OTD_H28,"Teljes szöveg");
-define(OTD_H29,"An extended description of the event");
+define(OTD_H29,"Az esemény teljes szövege.");
 define(OTD_H30,"Frissítések keresése");
 define(OTD_H31,"A plugin új verziójának keresése, ha elérhető.");
 
@@ -101,16 +98,16 @@ define(OTD_A40,"Események Importálása/Exportálása");
 define(OTD_A41,"Elérhető CSV és ICS fájlok:");
 define(OTD_A42,"Importálás");
 define(OTD_A43,"Exportálás");
-define(OTD_A44,"CSV Data needs to be in the form <br />&nbsp;&nbsp;&nbsp;Brief Text (unformatted max length 200 characters)<br />&nbsp;&nbsp;&nbsp;Date (YYYY-MM-DD)<br />&nbsp;&nbsp;&nbsp;Full text. (With XHTML formatting max length 4096 characters)<br />The separator is , and each field should be surrounded by a double quote (\") ");
+define(OTD_A44,"A CSV adatoknak az alább felsorolt formában kell lenniük:<br />&nbsp;&nbsp;&nbsp;Rövid szöveg: (nem formázott, maximum 200 karakter lehet).<br />&nbsp;&nbsp;&nbsp;Dátum: (YYYY-MM-DD).<br />&nbsp;&nbsp;&nbsp;Teljes szöveg: (Az XHTML-formázás maximális hossza 4096 karakter lehet).<br />Az elválasztó (,) legyen és minden mezőt kettős idézőjellel kell körülvenni (\").");
 define(OTD_A45,"Fájlok importálása");
 define(OTD_A46,"Fájl exportálása CVS fájlba");
 define(OTD_A47,"Az exportálandó fájl neve:");
 define(OTD_A48,"Fájl kiválasztása");
 define(OTD_A49,"A fájl sikeresen importálva lett!");
-define(OTD_A50,"You must specify a file to import");
-define(OTD_A51,"Unable to open the file");
-define(OTD_A52,"You must specify a file to export to");
-define(OTD_A53,"Unable to write the file. Check the csv folder is writable (chmod 777 for example).");
+define(OTD_A50,"Válassza ki az importálandó fájlt!");
+define(OTD_A51,"A fájlt nem lehet megnyitni!");
+define(OTD_A52,"Adja meg az exportálandó fájlnevet!");
+define(OTD_A53,"A fájl nem írható!<br>Ellenőrizze, hogy a csv mappa írható-e (chmod 777).");
 define(OTD_A54,"Olvass el");
 define(OTD_A55,"Frissítések keresése");
 define(OTD_A56,"napra vonatkozó esemény hozzáadása.");
