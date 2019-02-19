@@ -1,0 +1,18 @@
+<?xml version="1.4" encoding="utf-8"?>
+<e107Plugin name="Ezen a napon" lan="LAN_PLUGIN_ONTHISDAY_NAME" version="1.4" date="2019-02-19" compatibility="2.0" installRequired="true" >
+	<author name="Father Barry" url="http://www.keal.me.uk" />
+	<summary lan="LAN_PLUGIN_ONTHISDAY_SUMMARY">Az aktuális napra vonatkozó eseményeket jeleníti meg.</summary>
+	<description lan="LAN_PLUGIN_ONTHISDAY_DESC">Az aktuális napra vonatkozó eseményeket jeleníti meg.</description>
+	<category>content</category>
+	<copyright>GNU General Public License v2</copyright>
+	<adminLinks>
+		<link url="admin_config.php" icon="images/otd_32.png" iconSmall="images/otd_16.png" icon128="" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	
+	<pluginPrefs>
+		<pref name="otd_showempty">0</pref>
+		<pref name="otd_maxlength">30</pref>
+		<pref name="otd_readclass">0</pref>
+		<pref name="otd_dateformat">ymd</pref>			
+	</pluginPrefs>	
+</e107Plugin>
