@@ -1,3 +1,3 @@
 <?php
-$eplug_version = "1.4";
+$eplug_version = "1.5";
 ?>

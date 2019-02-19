@@ -54,12 +54,12 @@ if (isset($_POST['exportit']))
         }
         else
         {
-            $otd_msg = OTD_A53;
+            $otd_msg = "<font color=red>".OTD_A53."</font>";
         }
     }
     else
     {
-        $otd_msg = OTD_A52;
+        $otd_msg = "<font color=red>".OTD_A52."</font>";
     }
 }
 if (isset($_POST['importit']))
@@ -153,13 +153,13 @@ if (isset($_POST['importit']))
             }
             else
             {
-                $otd_msg = OTD_A51;
+                $otd_msg = "<font color=red>".OTD_A51."</font>";
             }
         }
     }
     else
     {
-        $otd_msg = OTD_A50;
+        $otd_msg = "<font color=red>".OTD_A50."</font>";
     }
         $e107cache->clear("nq_otdmenu");
     $e107cache->clear("otd_display");

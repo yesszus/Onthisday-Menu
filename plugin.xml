@@ -1,5 +1,5 @@
-<?xml version="1.4" encoding="utf-8"?>
-<e107Plugin name="Ezen a napon" lan="LAN_PLUGIN_ONTHISDAY_NAME" version="1.4" date="2019-02-19" compatibility="2.0" installRequired="true" >
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Ezen a napon" lan="LAN_PLUGIN_ONTHISDAY_NAME" version="1.5" date="2019-02-19" compatibility="2.0" installRequired="true" >
 	<author name="Father Barry" url="http://www.keal.me.uk" />
 	<summary lan="LAN_PLUGIN_ONTHISDAY_SUMMARY">Az aktuális napra vonatkozó eseményeket jeleníti meg.</summary>
 	<description lan="LAN_PLUGIN_ONTHISDAY_DESC">Az aktuális napra vonatkozó eseményeket jeleníti meg.</description>
