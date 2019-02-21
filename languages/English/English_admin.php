@@ -135,7 +135,7 @@ define("EVERSION_U14", "Click Here");
 define("EVERSION_U15", "Description :");
 define("EVERSION_U16", "Update Check");
 define("EVERSION_U17", "It was released on :");
-define("EVERSION_U18", "Plugin Author :");
+define("EVERSION_U18", "Plugin Author: <a target='_blank' href='https://github.com/yesszus'>Yesszus</a>");
 define("EVERSION_U19", "Plugin Manager reports that version ");
 define("EVERSION_U20", "is installed. Check the Plugin Manager.");
 define("EVERSION_U21", "Stable");
