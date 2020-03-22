@@ -110,10 +110,10 @@ if (file_exists("plugin.xml") OR file_exists("plugin.php"))
                         $evrsn_con = new convert;
                         $evrsn_text .= "<br />" . EVERSION_U17 . " : <strong>" . $evrsn_con->convert_date($evrsn_date, "long") . "</strong><br />";
                     }
-                    if (!empty($evrsn_author))
+                   /* if (!empty($evrsn_author))
                     {
                     $evrsn_text .= "<br /><br />" . EVERSION_U18 . " <br />";
-                    }
+                    }*/
                     if (!empty($evrsn_url))
                     {
                         $evrsn_text .= "<br />" . EVERSION_U13 . " ► <a target='_blank' href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a><br />&nbsp;";
@@ -124,8 +124,9 @@ if (file_exists("plugin.xml") OR file_exists("plugin.php"))
                 {
                     // It is the latest version
                 	$evrsn_text .= "<tr><td class='forumheader3'>".ADMIN_TRUE_ICON.EVERSION_U9."<br />";
-                    $evrsn_text .= "<br />" . EVERSION_U13 . " ► <a target='_blank' href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a>.<br /></td></tr>";
-                }
+                   //   $evrsn_text .= "<br />" . EVERSION_U13 . " ► <a target='_blank' href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a>.<br /></td></tr>";
+                        $evrsn_text .= "</td></tr>";
+		}
             }
             else
             {
